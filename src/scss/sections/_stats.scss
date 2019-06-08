@@ -1,0 +1,29 @@
+.stats {
+    background: $c29;
+    padding: 70px 0;
+    &_feature {
+        display: flex;
+        &__icon {
+            border-radius: 50%;
+            background: green;
+            margin-right: 15px;
+            width: 64px;
+            height: 64px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 15px 0;
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+        &__desc {
+            font-family: 'Raleway', sans-serif;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+        }
+    }
+}
