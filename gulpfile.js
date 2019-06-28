@@ -50,6 +50,7 @@ function images() {
     return img
 
 }
+gulp.task('styles', styles)
 gulp.task('callback', function () {
     // Callback mode, useful if any plugin in the pipeline depends on the `end`/`flush` event
     const css = watch(['src/css/**/*.css','src/sass/**/*.sass', 'src/scss/**/*.scss'], styles);

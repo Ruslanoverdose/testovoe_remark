@@ -1,0 +1,12 @@
+.product {
+    padding: 20px;
+    margin-right: 30px;
+    border: 1px solid $silver;
+    transition: .3s all;
+    text-align: center;
+    box-sizing: border-box;
+    &:hover {
+        border-color: transparent;
+        box-shadow: $shadow;
+    }
+}
