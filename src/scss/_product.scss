@@ -9,6 +9,11 @@
         border-color: transparent;
         box-shadow: $shadow;
     }
+    &_image {
+        img {
+            margin: auto;
+        }
+    }
     &_title {
         color: $green;
         font-weight: bold;
@@ -42,6 +47,7 @@
         align-items: center;
         .stars {
             margin-right: 5px;
+            display: flex;
         }
         .star {
             opacity: .4;
@@ -113,6 +119,9 @@
             }
             .availability {
                 font-size: 10px;
+                .check {
+                    display: flex;
+                }
             }
         }
         &_prices {
